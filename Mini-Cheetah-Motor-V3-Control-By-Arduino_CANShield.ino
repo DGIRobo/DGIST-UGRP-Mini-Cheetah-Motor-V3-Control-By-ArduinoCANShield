@@ -92,6 +92,6 @@ void loop() {
       motorset = motor.setZero(CAN);
     }
   
-    actPos0 = motor.normalSet(CAN, 1, 0, 0); Put in order: CANObject, desirePosition(rad), maxVelocity(rad/s), maxTorque(rad/s^2)
+    actPos0 = motor.normalSet(CAN, 1, 0, 0); //Put in order: CANObject, desirePosition(rad), maxVelocity(rad/s), maxTorque(rad/s^2)
   }
 }
